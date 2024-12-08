@@ -1,0 +1,319 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Título principal -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz de los Planetas"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/space_blue"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="4dp"
+        android:shadowColor="@color/black" />
+
+    <!-- Scroll para contenido -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/mercurio"
+                        android:contentDescription="Planeta Mercurio"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnMercurio"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Mercurio"
+                        android:textSize="18sp"
+                        android:backgroundTint="@color/button_blue"
+                        android:textColor="@color/white"
+                        android:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/venus"
+                        android:contentDescription="Planeta Venus"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnVenus"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Venus"
+                        android:textSize="18sp"
+                        android:backgroundTint="@color/button_blue"
+                        android:textColor="@color/white"
+                        android:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/planetatierra"
+                        android:contentDescription="Planeta Venus"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnTierra"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tierra"
+                        android:textSize="18sp"
+                        android:backgroundTint="@color/button_blue"
+                        android:textColor="@color/white"
+                        android:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/marte"
+                        android:contentDescription="Planeta Venus"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnMarte"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Marte"
+                        android:textSize="18sp"
+                        android:backgroundTint="@color/button_blue"
+                        android:textColor="@color/white"
+                        android:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/jupiter"
+                        android:contentDescription="Planeta Venus"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnJupiter"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Jupiter"
+                        android:textSize="18sp"
+                        android:backgroundTint="@color/button_blue"
+                        android:textColor="@color/white"
+                        android:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/saturno"
+                        android:contentDescription="Planeta Venus"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnSaturno"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Saturno"
+                        android:textSize="18sp"
+                        android:backgroundTint="@color/button_blue"
+                        android:textColor="@color/white"
+                        android:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/urano"
+                        android:contentDescription="Planeta Venus"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnUrano"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Urano"
+                        android:textSize="18sp"
+                        android:backgroundTint="@color/button_blue"
+                        android:textColor="@color/white"
+                        android:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/neptuno"
+                        android:contentDescription="Planeta Venus"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp" />
+
+                    <Button
+                        android:id="@+id/btnNeptuno"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Neptuno"
+                        android:textSize="18sp"
+                        android:backgroundTint="@color/button_blue"
+                        android:textColor="@color/white"
+                        android:elevation="2dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

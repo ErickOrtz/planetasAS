@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Fondo del espacio -->
+    <color name="space_blue">#001F54</color> <!-- Azul oscuro espacial -->
+    <color name="star_yellow">#FFD700</color> <!-- Amarillo estelar -->
+    <color name="planet_orange">#FF7F50</color> <!-- Naranja (Marte/Júpiter) -->
+    <color name="planet_green">#32CD32</color> <!-- Verde (Urano/Neptuno) -->
+    <color name="planet_purple">#9370DB</color> <!-- Púrpura (Saturno) -->
+
+    <!-- Textos y botones -->
+    <color name="button_blue">#4682B4</color> <!-- Azul para botones -->
+    <color name="button_pressed">#5A9BD5</color> <!-- Azul más claro al presionar -->
+    <color name="text_white">#FFFFFF</color> <!-- Blanco para textos -->
+    <color name="text_black">#000000</color> <!-- Negro para contrastes -->
+
+    <!-- Otros detalles -->
+    <color name="accent_red">#FF4500</color> <!-- Rojo para elementos destacados -->
+    <color name="background_grey">#F5F5F5</color> <!-- Gris claro para contraste -->
+</resources>
